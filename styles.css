@@ -33,6 +33,12 @@ p {
     font-size: 1.25rem !important;
 }
 
+@media (max-width: 768px) {
+    p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem !important;
+    }
+}
 
 h1 {
     color: #333;
@@ -193,6 +199,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem;
   }
+@media (max-width: 768px) {
+  .list-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+  }
+}
 
   .list-item li {
     margin-bottom: 8px;
@@ -255,7 +267,7 @@ h1 {
   background-image: url("/IMG/CS-ASSISTANT/ParallaxProblems.png");
   margin-bottom: 16px;
   margin-top: 16px;
-  min-height: 540px;
+  min-height: 600px;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -287,7 +299,7 @@ h1 {
   background-image: url("/IMG/CS-ASSISTANT/ParallaxSolutions.png");
   margin-bottom: 16px;
   margin-top: 16px;
-  min-height: 540px;
+  min-height: 600px;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -319,7 +331,7 @@ h1 {
   background-image: url("/IMG/CS-ASSISTANT/ParallaxNoBg.png");
   margin-bottom: 16px;
   margin-top: 16px;
-  min-height: 800px;
+  min-height: 880px;
   width: 100%;
   position: relative;
   overflow: hidden;
