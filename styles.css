@@ -658,3 +658,9 @@ h1 {
   font-size: 0.9rem;
   color: #6c757d;
 }
+
+.navstyle {
+    max-width: 1000px; margin: 0 auto;
+    padding: 16px;
+    position: sticky;
+}
