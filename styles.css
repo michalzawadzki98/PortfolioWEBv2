@@ -659,8 +659,22 @@ h1 {
   color: #6c757d;
 }
 
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    max-width: 940px;
+    margin: 0 auto; /* Wycentrowanie na stronie */
+    border-radius: 0 0 16px 16px; /* Zaokrąglenie rogów z dołu z lewej i prawej strony */
+}
+
+
 .navstyle {
-    max-width: 1000px; margin: 0 auto;
+    max-width: 1000px;
     padding: 16px;
-    position: sticky;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.navstyle a {
+    margin-left: 16px;
 }
